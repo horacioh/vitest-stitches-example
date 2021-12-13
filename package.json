@@ -1,0 +1,26 @@
+{
+  "name": "vitest-stitches-example",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.6",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "vitest": "^0.0.78"
+  },
+  "devDependencies": {
+    "@testing-library/react": "^12.1.2",
+    "@types/react": "^17.0.33",
+    "@types/react-dom": "^17.0.10",
+    "@vitejs/plugin-react": "^1.0.7",
+    "happy-dom": "^2.24.5",
+    "typescript": "^4.4.4",
+    "vite": "^2.7.2"
+  },
+  "packageManager": "yarn@3.1.1"
+}
